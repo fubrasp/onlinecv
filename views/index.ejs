@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Guillaume BERTRAND personnal, professional and school projects.">
+    <meta name="keywords" content="Guillaume BERTRAND projects arduino raspberrypi electronics software website">
+    <meta name="author" content="Guillaume BERTRAND">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= __('page_title')%></title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84799910-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-84799910-2');
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <!--<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>-->
+
+</head>
+<body>
+<nav class="amber accent-4">
+    <div class="nav-wrapper">
+        <a href="https://projets.bertrandguillaume.fr" class="brand-logo"><%= __('projects')%></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="https://services.bertrandguillaume.fr"><%= __('services')%></a></li>
+            <li><a href="<%= __('cv_link')%>"><%= __('cv')%></a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container" style=" margin-top : 15%;margin-bottom : 15%;">
+    <div class="row center">
+        <a class="waves-effect waves-light btn-large" href="<%= __('cv_link')%>"><i class="material-icons left">file_copy</i><%= __('page_description')%></a>
+    </div>
+</div>
+
+<footer class="page-footer amber accent-4">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text"><%= __('about_me')%></h5>
+                <p class="grey-text text-lighten-4"><%= __('contact_sentence')%></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"><%= __('links')%></h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="<%= __('linked_in')%>">LinkedIn</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://services.bertrandguillaume.fr"><%= __('services')%></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://blog.bertrandguillaume.fr"><%= __('blog')%></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/michaellnorth"><%= __('page_design')%></a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.freepik.com/free-vector/popular-social-networking-icons_1035632.htm"><%= __('icons_credits')%></a></li>
+                    <li><a class="grey-text text-lighten-3" href='https://fr.freepik.com/vecteurs-libre/vector-social-media-marketing-icone_1080503.htm'><%= __('icons_credits')%></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 GUILLAUME BERTRAND ET CONSULTANTS
+            <a class="grey-text text-lighten-4 right" href="<%= __('cv_link')%>"><%= __('cv')%></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
