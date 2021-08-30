@@ -1,6 +1,6 @@
 # CV website : BERTRAND Guillaume
 
-Big Data project for Big data course from M.Perrin
+Project for present my CV (need some dependancies upgrades)
 
 ### Prerequisites
 
